@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Gorakhnath Patil, Backend Software Engineer">
+  <defs>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.5" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="nm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.55" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0" r="0.9">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="1" cy="1" r="0.9">
+      <stop offset="0" stop-color="#bc8cff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#bc8cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'SF Mono',monospace; }
+      .fade { opacity: 0; animation: in 0.5s ease forwards; }
+      .d1 { animation-delay: 0.3s; } .d2 { animation-delay: 0.9s; } .d3 { animation-delay: 1.5s; }
+      .d4 { animation-delay: 2.1s; } .d5 { animation-delay: 2.7s; } .d6 { animation-delay: 3.3s; }
+      @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+      .cur { animation: blink 1s steps(2) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="url(#glowA)"/>
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="url(#glowB)"/>
+  <rect x="1" y="1" width="898" height="338" rx="16" fill="none" stroke="url(#bd)" stroke-width="2"/>
+
+  <!-- title bar -->
+  <path d="M1 17a16 16 0 0 1 16-16h866a16 16 0 0 1 16 16v26H1z" fill="#161b22"/>
+  <line x1="1" y1="44" x2="899" y2="44" stroke="#30363d"/>
+  <circle cx="28" cy="23" r="6.5" fill="#ff5f56"/>
+  <circle cx="50" cy="23" r="6.5" fill="#ffbd2e"/>
+  <circle cx="72" cy="23" r="6.5" fill="#27c93f"/>
+  <text x="450" y="28" text-anchor="middle" font-size="13" fill="#8b949e">gorakhnath@pune: ~/portfolio  —  zsh</text>
+
+  <!-- prompt: whoami -->
+  <g class="fade d1">
+    <text x="36" y="86" font-size="16" fill="#3fb950">➜</text>
+    <text x="58" y="86" font-size="16" fill="#00e5ff">~</text>
+    <text x="80" y="86" font-size="16" fill="#c9d1d9">whoami</text>
+  </g>
+
+  <!-- name -->
+  <g class="fade d2">
+    <text x="36" y="144" font-size="50" font-weight="700" fill="url(#nm)">Gorakhnath Patil</text>
+    <text x="38" y="176" font-size="17" fill="#c9d1d9">Backend Software Engineer</text>
+    <text x="38" y="200" font-size="14" fill="#8b949e">Java · Spring Boot · Kafka · Kubernetes · AWS &amp; Azure</text>
+  </g>
+
+  <!-- prompt: impact -->
+  <g class="fade d3">
+    <text x="36" y="238" font-size="16" fill="#3fb950">➜</text>
+    <text x="58" y="238" font-size="16" fill="#00e5ff">~</text>
+    <text x="80" y="238" font-size="16" fill="#c9d1d9">cat impact.log</text>
+  </g>
+
+  <g font-size="14">
+    <g class="fade d4">
+      <text x="38" y="266" fill="#3fb950">[ok]</text>
+      <text x="86" y="266" fill="#c9d1d9">1M+ streaming events/day at</text>
+      <text x="318" y="266" fill="#ffa657">&lt; 100 ms</text>
+      <text x="410" y="266" fill="#c9d1d9">end to end</text>
+    </g>
+    <g class="fade d5">
+      <text x="38" y="290" fill="#3fb950">[ok]</text>
+      <text x="86" y="290" fill="#c9d1d9">20+ microservices on EKS at</text>
+      <text x="318" y="290" fill="#ffa657">99.99%</text>
+      <text x="392" y="290" fill="#c9d1d9">uptime · live SaaS in production</text>
+    </g>
+  </g>
+
+  <g class="fade d6">
+    <text x="36" y="320" font-size="16" fill="#3fb950">➜</text>
+    <text x="58" y="320" font-size="16" fill="#00e5ff">~</text>
+    <rect class="cur" x="80" y="306" width="10" height="17" fill="#c9d1d9"/>
+  </g>
+</svg>

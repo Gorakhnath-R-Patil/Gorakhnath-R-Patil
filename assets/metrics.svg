@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130" role="img" aria-label="Key metrics">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code',Consolas,'SF Mono',monospace; }
+      .num { font-size: 32px; font-weight: 700; }
+      .lbl { font-size: 11.5px; fill: #8b949e; }
+      .card { fill: #0d1117; stroke: #30363d; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <g>
+    <rect class="card" x="1" y="1" width="168" height="128" rx="12"/>
+    <rect x="1" y="1" width="168" height="5" rx="2.5" fill="#00e5ff"/>
+    <text class="num" x="85" y="62" text-anchor="middle" fill="#00e5ff">1M+</text>
+    <text class="lbl" x="85" y="88" text-anchor="middle">streaming events</text>
+    <text class="lbl" x="85" y="105" text-anchor="middle">processed per day</text>
+  </g>
+  <g>
+    <rect class="card" x="179" y="1" width="168" height="128" rx="12"/>
+    <rect x="179" y="1" width="168" height="5" rx="2.5" fill="#bc8cff"/>
+    <text class="num" x="263" y="62" text-anchor="middle" fill="#bc8cff">&lt;100ms</text>
+    <text class="lbl" x="263" y="88" text-anchor="middle">end-to-end latency</text>
+    <text class="lbl" x="263" y="105" text-anchor="middle">zero SLA breaches</text>
+  </g>
+  <g>
+    <rect class="card" x="357" y="1" width="168" height="128" rx="12"/>
+    <rect x="357" y="1" width="168" height="5" rx="2.5" fill="#3fb950"/>
+    <text class="num" x="441" y="62" text-anchor="middle" fill="#3fb950">99.99%</text>
+    <text class="lbl" x="441" y="88" text-anchor="middle">uptime across 20+</text>
+    <text class="lbl" x="441" y="105" text-anchor="middle">services on AWS EKS</text>
+  </g>
+  <g>
+    <rect class="card" x="535" y="1" width="168" height="128" rx="12"/>
+    <rect x="535" y="1" width="168" height="5" rx="2.5" fill="#ffa657"/>
+    <text class="num" x="619" y="62" text-anchor="middle" fill="#ffa657">-60%</text>
+    <text class="lbl" x="619" y="88" text-anchor="middle">mean time to recovery</text>
+    <text class="lbl" x="619" y="105" text-anchor="middle">after observability stack</text>
+  </g>
+  <g>
+    <rect class="card" x="713" y="1" width="168" height="128" rx="12"/>
+    <rect x="713" y="1" width="168" height="5" rx="2.5" fill="#ff7b72"/>
+    <text class="num" x="797" y="62" text-anchor="middle" fill="#ff7b72">85%+</text>
+    <text class="lbl" x="797" y="88" text-anchor="middle">test coverage</text>
+    <text class="lbl" x="797" y="105" text-anchor="middle">TDD, Testcontainers</text>
+  </g>
+</svg>
