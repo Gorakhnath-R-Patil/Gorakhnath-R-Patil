@@ -148,7 +148,6 @@ Pairs **FinTech correctness** (pre-trade risk checks, double-entry ledger, clear
 | 🕸️ | [**EdgeMesh**](https://github.com/Gorakhnath-R-Patil/EdgeMesh) *(in progress)* | Service mesh that routes on live endpoint health, not static weights | `Go` `gRPC` `Protobuf` |
 | 🗂️ | [**Zara**](https://github.com/Gorakhnath-R-Patil/Zara) *(in progress)* | Local-first AI-assisted file manager for Windows: deterministic search and dedup with 400+ tests, and a local LLM that only translates queries | `C#` `.NET 9` `SQLite` `gRPC` `Ollama` |
 | 🤖 | [**Project-V**](https://github.com/Gorakhnath-R-Patil/Project-V) | Fully local voice AI agent for Windows. No cloud, no API cost | `Python` `Ollama` `Whisper` `Playwright` |
-| 🔗 | [**URL Shortener**](https://github.com/Gorakhnath-R-Patil/-URL-Shortener) | Idempotent shortener with redirects and top-domain metrics | `Java 17` `Spring Boot` `Docker` |
 | 🎯 | [**GFocus**](https://github.com/Gorakhnath-R-Patil/GFocus) | Privacy-first Android launcher that blocks everything except chosen apps | `Kotlin` `Android` |
 
 <img src="assets/h-experience.svg" alt="Experience" width="100%" />
